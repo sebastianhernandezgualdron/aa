@@ -1,0 +1,329 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    
+}
+
+.portafolio_u{
+    display: flex;
+    flex-direction: row;
+}
+
+.portafolio_u div{
+    width: 30%;
+    margin-left: 13%;
+}
+
+.portafolio_u h3{
+    width: 100%;
+    text-align: center;
+    font-size: 64px;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+.portafolio_u p{
+    font-size:28px;
+    text-align:center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.portafolio_u button{
+    width: 80%;
+    margin: 10%;
+    padding: 3%;
+    font-size: 30px;
+    font-weight:bold;
+    border: 1px solid white;
+    border-radius: 50px;
+    cursor: pointer;
+  
+}
+
+.portafolio_u button:hover{
+    background-color: blue;
+    color: #FFFFFF;
+    border:2px solid black;
+}
+.asesorias_cont{
+    border: 2px solid red;
+    height: 1200px;
+    background-color: #EEEEEE;
+    display: none;
+    background-image: url(../Assets/paisaje-e1549600034372.jpg);
+    background-repeat: no-repeat;
+    background-size:105%;
+    background-position: top;
+}
+.asesorias_cont article{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 38%;
+    background-color: #FFFFFF;
+}
+.asesorias_cont div{
+    display: inline-block;
+    width: 49%; 
+    padding: 4% 0%;
+   
+
+}
+
+.asesorias_cont h3{
+    text-align: center;
+    font-size: 64px;
+    padding-bottom: 20%;
+    font-weight: lighter;
+}
+
+.asesorias_cont p{
+    font-size:28px;
+    text-align:center;
+    padding-left: 15%;
+    padding-right: 15%;
+  
+    
+    
+}
+
+.asesorias_cont img{
+    max-width: 100%;
+    max-height: 100%;
+    width: 65%;
+    
+   
+}
+.slider_container{
+    max-width: 1000px;
+    margin-top: 100px;
+    margin-left: 15%;
+   margin-bottom: 100px;
+
+
+}
+ 
+.slider_container .slider{
+    white-space: nowrap;
+    overflow: hidden; 
+    
+
+}
+.slider div{
+
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    margin-left: 39px;
+    height: 120px;
+    border: 2px solid white;
+    width: 300.3px;
+    cursor: pointer;
+    padding-top:5%; 
+    border-radius: 50px;
+    backdrop-filter: blur(600px); 
+    
+
+}
+
+
+.slider div:first-child{
+    margin-left: 0px;
+}
+
+
+.slider_container i{
+    position: absolute;
+    height: 46px;
+    width: 46px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 46px;
+    background-color: blue;
+    color: #FFFFFF;
+    border-radius: 50%;
+    z-index: 1;
+    
+}
+
+.slider_container i:first-child{
+    left: 180px;
+    transform: translateY(150%);
+    display: none;
+}
+
+.slider_container i:last-child{
+    right: 160px;
+    transform: translateY(-230%);
+}
+
+.slider.mov{
+    cursor: grab;
+    scroll-behavior: auto;
+}
+
+.slider.mov img{
+pointer-events: none;
+}
+
+
+
+.info{
+    margin-top: 50px;
+    height: 50px;
+    font-size:large;
+    text-align: center;
+    background-color: #EC7B2A;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 300px;
+    padding-top: 20px;
+  color: white;
+
+}
+
+.info1{
+    margin-top: 50px;
+    height: 50px;
+    font-size:large;
+    text-align: center;
+    background-color: #9F7B59;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 300px;
+    padding-top: 20px;
+  color: white;
+
+}
+.info2{
+    margin-top: 50px;
+    height: 50px;
+    font-size:large;
+    text-align: center;
+    background-color: #36B0E2;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 300px;
+    padding-top: 20px;
+  color: white;
+
+}
+.info3{
+    margin-top: 50px;
+    height: 50px;
+    font-size:large;
+    text-align: center;
+    background-color: #C5353B;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 300px;
+    padding-top: 20px;
+  color: white;
+
+}
+.info4{
+    margin-top: 50px;
+    height: 50px;
+    font-size:large;
+    text-align: center;
+    background-color: #606468;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 300px;
+    padding-top: 20px;
+   color: white;
+    
+  
+
+}
+.info5{
+    margin-top: 50px;
+    height: 50px;
+    font-size:large;
+    text-align: center;
+    background-color: #354591;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 300px;
+    padding-top: 20px;
+  color: white;
+
+}
+.fondo{
+    background-image: url(../Assets/image-31-3.png);
+}
+
+.fondo1{
+    background-image: url(../Assets/2.png);
+}
+.fondo2{
+    background-image: url(../Assets/3.png);
+}
+.fondo3{
+     background-image: url(../Assets/4.png);
+
+}
+.fondo4{
+     background-image: url(../Assets/6.png);
+
+}
+.fondo5{
+     background-image: url(../Assets/5.png);
+
+}
+.consultCarreras article{
+   height: 300px;
+}
+
+.admiEmpre{
+    border:10px solid #EC7B2A ;
+    border-radius: 20px;    
+    font-size: larger;
+    text-align: center;
+    display: none;
+}
+
+.finanComer{
+     background-color:#9F7B59;
+    color: #FFFFFF;
+    font-size: larger;
+    text-align: center;
+    display: none;
+
+}
+
+.ingSoft{
+     background-color:#36B0E2;
+    color: #FFFFFF;
+    font-size: larger;
+    text-align: center;
+    display: none;
+}
+
+.markLog{
+     background-color:#C5353B;
+    color: #FFFFFF;
+    font-size: larger;
+    text-align: center;
+    display: none;
+
+}
+
+.ingIndus{
+     background-color:#606468;
+    color: #FFFFFF;
+    font-size: larger;
+    text-align: center;
+    display: none;
+}
+
+.negocInter{
+     background-color:#354591;
+    color: #FFFFFF;
+    font-size: larger;
+    text-align: center;
+    display: none;
+
+}
